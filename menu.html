@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <title>Tea Amo Menu</title>
+    <style></style>
+  </head>
+
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="logo.jpg" alt="Logo Image" class="logo-img" />
+          <a href="#">Tea amo</a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contanct.html">Contacts</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+
+    <style>
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+
+      .nav-links {
+        list-style: none;
+      }
+
+      .nav-links li {
+        display: inline;
+        margin-right: 15px;
+      }
+    </style>
+    <div class="menu">
+      <div class="menu-header">
+        <a href="index.html"><h3>Home</h3></a>
+
+        <h4>Tea Amo Coffee Menu</h4>
+      </div>
+      <div class="menu-content">
+        <div class="hot-coffees">
+          <div class="hot-coffees-image">
+            <img src="img/hot-coffees.jpg" alt="" />
+          </div>
+          <div class="hot-coffees-body">
+            <h2>Hot Coffees</h2>
+            <label
+              >Savor the rich, bold flavors of our hot coffee selection, brewed
+              to perfection.</label
+            >
+          </div>
+        </div>
+        <div class="cold-coffees">
+          <div class="cold-coffees-image">
+            <img src="img/cold-coffees.jpg" alt="" />
+          </div>
+          <div class="cold-coffees-body">
+            <h2>Cold Coffees</h2>
+            <label
+              >Cool and refreshing, perfect for a hot day or when you need a
+              refreshing kick.</label
+            >
+          </div>
+        </div>
+        <div class="frappucino-coffees">
+          <div class="frappucino-coffees-image">
+            <img src="img/frappuccino.jpg" alt="" />
+          </div>
+          <div class="frappucino-coffees-body">
+            <h2>Frappuccino Coffees</h2>
+            <label
+              >A creamy blend of coffee, milk, and ice, topped with a swirl of
+              whipped cream.</label
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="shop" id="shop">
+      <div class="shop-header">
+        <h3>Shop</h3>
+        <h4>Tea Amo Coffee Drinks</h4>
+      </div>
+      <div class="shop-box">
+        <div class="item-1">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/caramel-macchiato.jpg" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <label class="cash">₱250</label>
+              <h3>Caramel Delight</h3>
+              <label>Smooth espresso with rich caramel and milk.</label>
+            </div>
+          </div>
+        </div>
+        <div class="item-2">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/flat-white.png" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <label class="cash">₱210</label>
+              <h3>Velvety Flat White</h3>
+              <label>A creamy, rich blend of espresso and steamed milk.</label>
+            </div>
+          </div>
+        </div>
+        <div class="item-3">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/chocolate-frappuccino.png" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <label class="cash">₱230</label>
+              <h3>Chocolate Bliss Frappuccino</h3>
+              <label>A delightful blend of coffee, chocolate, and ice.</label>
+            </div>
+          </div>
+        </div>
+        <div class="item-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/frappe.jpg" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <label class="cash">₱160</label>
+              <h3>Classic Frappe</h3>
+              <label>Light, creamy, and refreshing coffee frappe.</label>
+            </div>
+          </div>
+        </div>
+        <div class="item-5">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/caffe-mocha.png" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <label class="cash">₱200</label>
+              <h3>Café Mocha</h3>
+              <label>A perfect balance of coffee and rich chocolate.</label>
+            </div>
+          </div>
+        </div>
+        <div class="item-6">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/vanilla-frappuccino.jpg" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <label class="cash">₱190</label>
+              <h3>Vanilla Dream Frappuccino</h3>
+              <label>A creamy blend of vanilla, coffee, and ice.</label>
+            </div>
+          </div>
+        </div>
+        <div class="item-7">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/white-chocolate-mocha.jpg" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half"></i>
+              <label class="cash">₱370</label>
+              <h3>White Chocolate Mocha</h3>
+              <label>Silky espresso with white chocolate syrup and milk.</label>
+            </div>
+          </div>
+        </div>
+        <div class="item-8">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/ice-latte.jpg" />
+            </div>
+            <div class="card-body">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <label class="cash">₱320</label>
+              <h3>Iced Latte</h3>
+              <label
+                >Chilled espresso and milk over ice for a smooth finish.</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-box">
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="copyright"></div>
+        <div class="brand">
+          <label>Tea Amo <span>Coffee</span></label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

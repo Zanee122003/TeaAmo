@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <style>
+      .nav {
+        display: block;
+      }
+      .contact {
+        padding-top: 200px;
+      }
+      body {
+        background-color: #333333;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="logo.jpg" alt="Logo Image" class="logo-img" />
+          <a class="logofont" href="#">Tea amo</a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contanct.html">Contacts</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+
+    <style>
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+
+      .logofont {
+        font-size: 14px;
+        margin-left: 5px;
+        color: #333;
+        text-decoration: none;
+      }
+
+      .nav-links {
+        list-style: none;
+      }
+
+      .nav-links li {
+        display: inline;
+        margin-right: 15px;
+      }
+    </style>
+
+    <div class="contact">
+      <div class="contact-box">
+        <div class="contact-image">
+          <img src="img/background.jpg" />
+        </div>
+      </div>
+      <div class="contact-box">
+        <div class="contact-body">
+          <form>
+            <h2>Contact Us</h2>
+            <div class="form-content">
+              <input type="text" required />
+              <span></span>
+              <label>Username</label>
+            </div>
+            <div class="form-content">
+              <input type="email" required />
+              <span></span>
+              <label>Email</label>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-box">
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="copyright"></div>
+        <div class="brand">
+          <label>Tea Amo <span>Coffee</span></label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
